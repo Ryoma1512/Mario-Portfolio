@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Hernandez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@300&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="containerBox">
+    <!-- NAVIGATION BAR -->
+    <nav class="navBar">
+        <div class="logo"><a href="index.html">Mario</a></div>
+        <ul>
+            <input type="checkbox" id="checkbox" onclick="function menu()">
+            <label for="checkbox" class="hamburger">&#9776;</label>
+            
+            <div class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#skillsBox">Skills</a></li>
+            <li><a href="#projectsBox">Projects</a></li>
+            <li><a href="#contactBox">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- END NAVIGATION BAR -->
+
+    <!-- BIO SECTION -->
+    <section class="bioBox">
+        <img src="/images/Foto CV.jpg" alt="Foto_Mario_Hernandez" class="bioPhoto"> 
+        <div>
+            <h1>Mario Hernández</h1>
+            <p class="info">I'm a enthusiast young man with the desire to keep gaining knowledge to use it on a day to day.  
+                <br>I decided to choose the path of a Web Designer because i love it. I like to do layouts and use my imagination to design.</p>
+        </div>
+    </section>
+    <!-- END BIO SECTION  -->
+
+    <!-- SKILLS & PROYECTS SECTION  -->
+    <main>
+        <!-- SKILLS BOX  -->
+        <section id="skillsBox">
+            <h2 class="titles">Skills</h2>
+            <article id="html">
+                <img src="/images/html5-logo.png" alt="CSS Logo" id="htmlPhoto" class="skillsPhoto">
+                <ul class="skillsList">
+                    <li>Basics</li>
+                    <li>Semantic HTML</li>
+                    <li>SEO BASICS</li>
+                    <li>Forms</li>
+                </ul>
+            </article>
+
+            <article id="css">
+                <img src="/images/CSS-Logo.png" alt="CSS Logo" class="skillsPhoto">
+                <ul class="skillsList">
+                    <li>Basics</li>
+                    <li>FlexBox</li>
+                    <li>Box Model</li>
+                    <li>Grid</li>
+                    <li>Pseudo Classes</li>
+                    <li>Media Queries</li>
+                </ul>
+            </article>
+
+            <article id="js">
+                <img src="/images/js-logo.png" alt="CSS Logo" class="skillsPhoto">
+                <ul class="skillsList">
+                    <li>Vanilla JavaScript</li>
+                    <li>Basic Syntax</li>
+                    <li>Basic DOM Manipulation</li>
+                </ul>
+            </article>
+
+            <article id="tailwind">
+                <img src="/images/tailwind-css.svg" alt="TailwindCSS  Logo" class="skillsPhoto">
+                <ul class="skillsList">
+                    <li>CSS Framework</li>
+                    <li>Intermediate Level</li>
+                </ul>
+            </article>
+
+        </section>
+        <!-- END SKILLS BOX  -->
+
+        <!-- PROJECTS BOX  -->
+        <section id="projectsBox">
+            <h2 class="titles">Projects</h2>
+            <article class="projects">
+                <img src="/images/clipboard-page.png" alt="Clipboard Page" class="projectsPhoto">
+                <p class="info">Landing Page created using Tailwind CSS as framework. I used Grid to create the layout. </p>
+                <a href="https://ryoma1512.github.io/clipboard-landing-page-master/" target="_blank">See the page</a>
+            </article>
+            <article class="projects">
+                <img src="/images/landing-page-two-column.png" alt="Landing Page with two columns" class="projectsPhoto">
+                <p class="info">This is a project with a two columns layout created with Taildwind CSS. It contains email forms and a testimonial section. </p>
+                <a href="https://ryoma1512.github.io/fylo-landing-page-with-two-column-layout-master/" target="_blank">See the page</a>
+            </article>
+            <article class="projects">
+                <img src="/images/faq-accordion.png" alt="Faq Accordion" class="projectsPhoto">
+                <p class="info">FAQ accordion page created using Taildwind CSS applying Vanilla JS to hide or show the accordion.</p>
+                <a href="https://ryoma1512.github.io/faq-accordion-card-main/" target="_blank">See the page</a>
+            </article>
+            <article class="projects">
+                <img src="/images/landing-page.png" alt="Landing Page" class="projectsPhoto">
+                <p class="info">Landing page created using only HTML & CSS. It's a project with a two columns layout who works as a introduction section.</p>
+                <a href="https://ryoma1512.github.io/huddle-landing-page-with-single-introductory-section-master/" target="_blank">See the page</a>
+            </article>
+        </section>
+        <!-- END PROJECTS BOX  -->
+    </main>
+    <!-- END SKILLS & PROYECTS SECTION  -->
+
+    <!-- FOOTER  -->
+    <footer id="contactBox">
+        <h2 id="titleFooter">Contacts</h2>
+        <!-- CONTACT FORM  -->
+        <div class="formSection" id="contact">
+                <form action="https://formsubmit.co/3b845bde827b7ebc6ed17a0be0b238f7" method="POST">
+                <label for="fullName"></label>
+                <input id="fullName" name="fullName" type="text" placeholder="Full Name">
+
+                <label for="emailAdress"></label>
+                <input id="emailAdress" name="emailAdress" type="email" placeholder="Email Adress">
+                
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write here you message!"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+        <!-- END CONTACT FORM  -->
+        <div class="contactsNetworks">
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/in/mario-hernandez-b4b380231/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Ryoma1512" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- END FOOTER  -->
+</body>
+</html>
