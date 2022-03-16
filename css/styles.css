@@ -50,10 +50,10 @@ a{
     padding-top: 5rem;
 }
 .bioPhoto{
-    width: 15rem;
+    width: 11rem;
     display: block;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 h1{
     font-family: 'Roboto Mono', monospace;
@@ -240,15 +240,22 @@ button:hover{
         grid-template-columns: 50% 50%;
         padding: 10rem 0 5rem 0;
     }
+    .bioPhoto{
+        width: 15rem;
+        height: 25rem;
+        border-radius: 50%;
+    }
     .info{
+        padding-top: 3.5rem;
         font-size: 1.2rem;
         text-align: center;
         line-height: 2rem;
     }
     #skillsBox{
         display: grid;
-        grid-template-areas: "title title title title"
-                             "html css js tailwind";  
+        grid-template-areas: "title title"
+                             "html  css" 
+                             "js tailwind";
     }
     #skillsBox > h2{
         grid-area: title;
