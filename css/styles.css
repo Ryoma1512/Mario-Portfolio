@@ -92,7 +92,7 @@ h1{
 }
 .skillsList{
     text-align: center;
-    list-style:square;
+    list-style:none;
     font-family: 'Montserrat', sans-serif;
     color: #000;
     line-height: 1.5rem;
